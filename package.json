@@ -6,8 +6,8 @@
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "https://github.com/cts-yazilim/cts-react-native-android-barcode-printer",
-    "rawSpec": "https://github.com/cts-yazilim/cts-react-native-android-barcode-printer",
+    "raw": "https://github.com/cts-yazilim/cts-react-native-android-barcode-printer.git",
+    "rawSpec": "https://github.com/cts-yazilim/cts-react-native-android-barcode-printer.git",
     "saveSpec": "git+https://github.com/cts-yazilim/cts-react-native-android-barcode-printer.git",
     "fetchSpec": "https://github.com/cts-yazilim/cts-react-native-android-barcode-printer.git",
     "gitCommittish": null
@@ -16,9 +16,9 @@
     "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/cts-yazilim/cts-react-native-android-barcode-printer.git#b6490029e1efebc0f94fa4fad1201d0c76469c70",
-  "_spec": "https://github.com/cts-yazilim/cts-react-native-android-barcode-printer",
-  "_where": "C:\\Users\\Saksar\\Desktop\\Lib\\TestModule",
+  "_resolved": "git+https://github.com/cts-yazilim/cts-react-native-android-barcode-printer.git#2323089b6b2cbff73181e180c7f870112872d266",
+  "_spec": "https://github.com/cts-yazilim/cts-react-native-android-barcode-printer.git",
+  "_where": "C:\\Users\\Saksar\\Desktop\\Lib\\TestBridge",
   "author": {
     "name": "selcukaksar"
   },
