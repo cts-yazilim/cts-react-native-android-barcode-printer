@@ -37,7 +37,7 @@ import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.bridge.WritableNativeMap;
 import com.facebook.react.bridge.UiThreadUtil;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
-
+import android.os.StrictMode;
 public class RNAndroidBarcodePrinterModule extends ReactContextBaseJavaModule {
 
     public static ReactApplicationContext reactContext;
@@ -49,6 +49,7 @@ public class RNAndroidBarcodePrinterModule extends ReactContextBaseJavaModule {
 
     public RNAndroidBarcodePrinterModule(ReactApplicationContext reactContext) {
         super(reactContext);
+        
         this.reactContext = reactContext;
     }
 
@@ -109,6 +110,9 @@ public class RNAndroidBarcodePrinterModule extends ReactContextBaseJavaModule {
             UiThreadUtil.runOnUiThread(new Runnable() {
 
                 public void run() {
+                    StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+                    StrictMode.setThreadPolicy(policy);
+                    
                     if (state == ConnectionState.Connected) {
                         LastState=state;
                         printData();
